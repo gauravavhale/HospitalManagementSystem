@@ -11,7 +11,7 @@ const ReceptionDashboard = () => {
     setStats(dashboardStats);
     setAppointments(todaysAppointments);
 
-    // LATER: Replace above with API call
+    // Replace above with API call
     /*
     fetch("/api/reception/today")
       .then(res => res.json())

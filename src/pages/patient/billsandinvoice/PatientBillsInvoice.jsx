@@ -26,12 +26,11 @@ const PatientBillsInvoice = () => {
 
   return (
     <div className="p-8 bg-white min-h-screen">
-      {/* Page Title */}
+      
       <h2 className="text-2xl font-semibold text-[#536CB3] mb-6">
         Bills & Invoice
       </h2>
 
-      {/* Patient Information */}
       <div className="bg-white p-6 rounded shadow-sm border mb-8">
         <h3 className="text-lg font-semibold text-[#536CB3] mb-4">
           Patient Information
@@ -70,7 +69,6 @@ const PatientBillsInvoice = () => {
         </div>
       </div>
 
-      {/* Billing Details */}
       <div className="bg-white p-6 rounded shadow-sm border">
         <h3 className="text-lg font-semibold text-[#536CB3] mb-4">
           Billing Details
@@ -85,7 +83,6 @@ const PatientBillsInvoice = () => {
           <div>Total</div>
         </div>
 
-        {/* Table Rows */}
         {billingItems.map((item, index) => (
           <div
             key={item.id}
@@ -99,14 +96,12 @@ const PatientBillsInvoice = () => {
           </div>
         ))}
 
-        {/* Grand Total */}
         <div className="flex justify-end mt-6">
           <p className="font-semibold text-md">
             Grand Total ₹ {grandTotal}
           </p>
         </div>
 
-        {/* Payment Status */}
         <div className="mt-6 text-sm space-y-1">
           <p>
             <span className="font-semibold">Payment Status:</span> Paid via
@@ -118,7 +113,6 @@ const PatientBillsInvoice = () => {
           </p>
         </div>
 
-        {/* Buttons */}
         <div className="flex gap-6 mt-8">
           <button className="bg-[#536CB3] text-white px-8 py-2 rounded shadow hover:opacity-90">
             Generate PDF

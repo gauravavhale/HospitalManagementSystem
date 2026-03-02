@@ -22,7 +22,7 @@ const ViewPrescription = () => {
           <div className="text-sm text-gray-600 mt-3">
             <p>City Hospital 123, ABC Road, Andheri</p>
             <p>West, Mumbai - 400058 Maharashtra, India</p>
-            <p>📞 Phone: +91 98765 43210</p>
+            <p>Phone: +91 98765 43210</p>
             <p>✉ Email: info@cityhospital.com</p>
           </div>
         </div>

@@ -87,7 +87,7 @@ const patientOverview = [
 const DoctorDashboard = () => {
   return (
     <div className="p-6 bg-white min-h-screen">
-      {/* Welcome Section */}
+      
       <h2 className="text-2xl font-semibold text-blue-700">
         Welcome&lt; DR Sarah Wilson!
       </h2>

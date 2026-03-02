@@ -140,13 +140,11 @@ export default function PatientRegister() {
      backgroundImage: "url('/image 2.png')",
      }}
     >
-        {/* White overlay like screenshot */}
+      
         <div className="absolute inset-0 bg-white/70"></div>
 
-        {/* Glass Card */}
         <div className="relative z-10 bg-white/90 backdrop-blur-sm w-[420px] rounded-xl shadow-lg px-8 py-10">
 
-        {/* Logo Placeholder */}
         <div className="flex justify-center mb-4">
           <img src="/logo.png" alt="Hospital Logo" className="w-40" />
         </div>

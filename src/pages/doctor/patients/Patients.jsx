@@ -37,7 +37,7 @@ const Patients = () => {
         Patients
       </h2>
 
-      {/* 🔎 Search Section */}
+      {/* Search Section */}
       <div className="flex gap-4 mb-6">
         <input
           type="text"

@@ -66,7 +66,6 @@ const UpcomingAppointments = () => {
         </button>
       </div>
 
-      {/* Blue Bordered Table Container */}
       <div className="border-2 border-[#536CB3] p-4 rounded bg-white">
         <div className="overflow-x-auto">
           <table className="w-full text-sm border">

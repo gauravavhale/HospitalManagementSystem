@@ -7,7 +7,7 @@ const DoctorConsultation = () => {
     <div className="min-h-screen bg-white p-8">
       <div className="max-w-6xl mx-auto">
 
-        {/* 🔵 Page Title */}
+        {/* Page Title */}
         <h2 className="text-2xl font-semibold text-[#536CB3] mb-8">
           Doctor Consultation Screen
         </h2>

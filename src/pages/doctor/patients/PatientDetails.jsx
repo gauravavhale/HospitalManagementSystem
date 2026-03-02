@@ -15,7 +15,7 @@ const PatientDetails = () => {
 
         <div className="flex gap-8">
 
-          {/* 👤 Left Profile Image */}
+          {/* Left Profile Image */}
           <div>
             <img
               src="https://randomuser.me/api/portraits/men/32.jpg"
@@ -24,7 +24,7 @@ const PatientDetails = () => {
             />
           </div>
 
-          {/* 📄 Right Content */}
+          {/* Right Content */}
           <div className="flex-1">
 
             {/* Name + Tags */}

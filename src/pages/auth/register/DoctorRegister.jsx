@@ -28,7 +28,7 @@ const DoctorRegister = () => {
     "General Physician",
   ];
 
-  // ✅ Field Validation Function (Single Field)
+  // Field Validation Function (Single Field)
   const validateField = (name, value) => {
     let error = "";
 
@@ -60,13 +60,13 @@ const DoctorRegister = () => {
     return error;
   };
 
-    // ✅ Handle Change with Validation
+    // Handle Change with Validation
     const handleChange = (e) => {
     const { name, value } = e.target;
 
     let newValue = value;
 
-    // ✅ Prevent non-numeric input for contact number
+    // Prevent non-numeric input for contact number
     if (name === "contactNumber") {
         newValue = value.replace(/\D/g, "");
     }

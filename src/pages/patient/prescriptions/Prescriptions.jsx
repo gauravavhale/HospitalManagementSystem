@@ -4,21 +4,17 @@ const Prescriptions = () => {
   return (
     <div className="bg-white min-h-screen p-8">
       
-      {/* Page Title */}
       <h2 className="text-[#536CB3] text-xl font-semibold mb-4">
         Prescriptions
       </h2>
 
-      {/* Subtitle */}
       <h3 className="text-lg font-semibold mb-6">
         Last 6 Month
       </h3>
 
-      {/* Table Card */}
       <div className="bg-white rounded-md shadow-sm border border-gray-200">
         <table className="w-full border-collapse">
           
-          {/* Table Head */}
           <thead className="bg-gray-100 text-gray-700">
             <tr>
               <th className="text-left px-6 py-3 text-sm font-semibold">
@@ -39,7 +35,6 @@ const Prescriptions = () => {
             </tr>
           </thead>
 
-          {/* Table Body */}
           <tbody>
             {prescriptionDummyData.map((item, index) => (
               <tr
